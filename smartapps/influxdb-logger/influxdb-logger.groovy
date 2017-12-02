@@ -790,8 +790,17 @@ private escapeStringForInfluxDB(str) {
 private getGroupName(id) {
 
     if (id == null) {return 'Home'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Kitchen'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Lounge'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Office'}
+    else if (id == '0c1ec50f-243e-4373-9b3a-92a69dab49bd') {return 'Garage'}
+    else if (id == '0d3df42b-2396-4fb5-a30d-b15e2cb61b69') {return 'Upstairs Hallway'}
+    else if (id == '35d8d23a-1c3f-4e40-9514-e21bd59a34f5') {return 'Master Bedroom'}
+    else if (id == '14a4a42a-6f2c-47af-99c6-43bd540425c6') {return 'Mud Room'}
+    else if (id == '46697395-c737-472f-8203-8278f650927a') {return 'Basement Hallway'}
+    else if (id == '6da5d0cd-f361-4bed-ae21-a9df0d6f31e4') {return 'Stairs'}
+    else if (id == '8320b3b2-5945-4f19-905c-d07cf21fc814') {return 'Utility Room'}
+    else if (id == 'a190b3cc-b781-481a-a12e-90f7e25a5d98') {return 'Living Room'}
+    else if (id == 'aba085b6-8d3a-460f-a340-b22f163c5185') {return 'Family Room'}
+    else if (id == 'abb6fed0-0911-4c25-b65e-92467a8d1def') {return 'Kitchen'}
+    else if (id == 'c5a5c7c7-f435-4d2f-9787-09a5b1cb8bcc') {return 'Front Porch'}
+    else if (id == 'f17554fb-229f-4815-8683-56e79ab86eff') {return 'Front Hallway'}
     else {return 'Unknown'}    
 }
